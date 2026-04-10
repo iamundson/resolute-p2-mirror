@@ -2,9 +2,9 @@
 <?metadataRepository version='1.2.0'?>
 <repository name='local.resolute:resolute-target:eclipse-target-definition:1.0.0' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1775788151336'/>
+    <property name='p2.timestamp' value='1775791370736'/>
   </properties>
-  <units size='1185'>
+  <units size='1192'>
     <unit id='org.eclipse.emf.ecore' version='2.35.0.v20230829-0934' generation='2'>
       <update id='org.eclipse.emf.ecore' range='[0.0.0,2.35.0.v20230829-0934)' severity='0'/>
       <properties size='9'>
@@ -41,23 +41,23 @@
         </provided>
         <provided namespace='org.eclipse.emf.ecore.generated_package' name='org.eclipse.emf.ecore_2.35.0.v20230829-0934-1' version='0.0.0'>
           <properties size='3'>
-            <property name='class' value='org.eclipse.emf.ecore.EcorePackage'/>
             <property name='genModel' value='model/Ecore.genmodel'/>
             <property name='uri' value='http://www.eclipse.org/emf/2002/Ecore'/>
+            <property name='class' value='org.eclipse.emf.ecore.EcorePackage'/>
           </properties>
         </provided>
         <provided namespace='org.eclipse.emf.ecore.generated_package' name='org.eclipse.emf.ecore_2.35.0.v20230829-0934-2' version='0.0.0'>
           <properties size='3'>
-            <property name='class' value='org.eclipse.emf.ecore.xml.namespace.XMLNamespacePackage'/>
             <property name='genModel' value='model/XMLNamespace.genmodel'/>
             <property name='uri' value='http://www.w3.org/XML/1998/namespace'/>
+            <property name='class' value='org.eclipse.emf.ecore.xml.namespace.XMLNamespacePackage'/>
           </properties>
         </provided>
         <provided namespace='org.eclipse.emf.ecore.generated_package' name='org.eclipse.emf.ecore_2.35.0.v20230829-0934-3' version='0.0.0'>
           <properties size='3'>
-            <property name='class' value='org.eclipse.emf.ecore.xml.type.XMLTypePackage'/>
             <property name='genModel' value='model/XMLType.genmodel'/>
             <property name='uri' value='http://www.eclipse.org/emf/2003/XMLType'/>
+            <property name='class' value='org.eclipse.emf.ecore.xml.type.XMLTypePackage'/>
           </properties>
         </provided>
         <provided namespace='org.eclipse.emf.ecore.dynamic_package' name='org.eclipse.emf.ecore_2.35.0.v20230829-0934-4' version='0.0.0'>
@@ -1583,6 +1583,96 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='org.bouncycastle.bcutil' version='1.72.0.v20221013-1810' singleton='false' generation='2'>
+      <update id='org.bouncycastle.bcutil' range='[0.0.0,1.72.0.v20221013-1810)' severity='0'/>
+      <properties size='7'>
+        <property name='df_LT.bundleVendor' value='Eclipse Orbit'/>
+        <property name='df_LT.bundleName' value='Bouncy Castle ASN.1 Extension and Utility APIs'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='maven-groupId' value='org.eclipse.orbit.bundles'/>
+        <property name='maven-artifactId' value='org.bouncycastle.bcutil'/>
+        <property name='maven-version' value='1.72.0-SNAPSHOT'/>
+      </properties>
+      <provides size='38'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.bouncycastle.bcutil' version='1.72.0.v20221013-1810'/>
+        <provided namespace='osgi.bundle' name='org.bouncycastle.bcutil' version='1.72.0.v20221013-1810'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.bsi' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.cmc' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.cmp' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.cms' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.cms.ecc' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.crmf' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.dvcs' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.eac' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.esf' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.ess' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.est' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.icao' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.isismtt' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.isismtt.ocsp' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.isismtt.x509' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.smime' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.asn1.tsp' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.etsi102941' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.etsi102941.basetypes' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.etsi103097' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.etsi103097.extension' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.ieee1609dot2' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.ieee1609dot2.basetypes' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.ieee1609dot2dot1' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.template.etsi102941' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.template.etsi102941.basetypes' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.template.etsi103097' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.template.etsi103097.extension' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.template.ieee1609dot2' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.template.ieee1609dot2.basetypes' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.oer.its.template.ieee1609dot2dot1' version='1.72.0'/>
+        <provided namespace='osgi.identity' name='org.bouncycastle.bcutil' version='1.72.0.v20221013-1810'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='13'>
+        <required namespace='java.package' name='org.bouncycastle.asn1' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.nist' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.ocsp' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.oiw' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.pkcs' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.x500' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.x509' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.math.ec' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.util' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.util.encoders' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.util.io' range='[1.72.0,1.73.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version&gt;=1.8))'>
+          <description>
+            org.bouncycastle.bcutil
+          </description>
+        </requiredProperties>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'>
+          <description>
+            org.bouncycastle.bcutil
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.bouncycastle.bcutil' version='1.72.0.v20221013-1810'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.bouncycastle.bcutil&#xA;Bundle-Version: 1.72.0.v20221013-1810
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
     <unit id='org.eclipse.mylyn.monitor.feature.feature.group' version='4.1.0.v20231009-0014' singleton='false' generation='2'>
       <update match='providedCapabilities.exists(pc | pc.namespace == &apos;org.eclipse.equinox.p2.iu&apos; &amp;&amp; (pc.name == &apos;org.eclipse.mylyn.monitor.feature.group&apos; || pc.name == &apos;org.eclipse.mylyn.monitor.feature.feature.group&apos; &amp;&amp; pc.version ~= range(&apos;[0.0.0,4.1.0.v20231009-0014)&apos;)))' severity='0'/>
       <properties size='14'>
@@ -2268,6 +2358,19 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='generated.target.category.35ba193d-683c-45af-888d-80f91deedb56' version='1.0.0.07I7GcKCAvE7G2EcH1Te1eAt'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://osate-build.sei.cmu.edu/p2/py4j'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.35ba193d-683c-45af-888d-80f91deedb56' version='1.0.0.07I7GcKCAvE7G2EcH1Te1eAt'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.py4j.feature.feature.group' range='[0.10.9.7-bnd-CoUoZw,0.10.9.7-bnd-CoUoZw]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
     <unit id='org.eclipse.emf.codegen.ecore' version='2.36.0.v20231002-1035' generation='2'>
       <update id='org.eclipse.emf.codegen.ecore' range='[0.0.0,2.36.0.v20231002-1035)' severity='0'/>
       <properties size='9'>
@@ -2302,9 +2405,9 @@
         </provided>
         <provided namespace='org.eclipse.emf.ecore.generated_package' name='org.eclipse.emf.codegen.ecore_2.36.0.v20231002-1035-1' version='0.0.0'>
           <properties size='3'>
-            <property name='class' value='org.eclipse.emf.codegen.ecore.genmodel.GenModelPackage'/>
             <property name='genModel' value='model/GenModel.genmodel'/>
             <property name='uri' value='http://www.eclipse.org/emf/2002/GenModel'/>
+            <property name='class' value='org.eclipse.emf.codegen.ecore.genmodel.GenModelPackage'/>
           </properties>
         </provided>
         <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
@@ -2536,19 +2639,6 @@
             (org.eclipse.update.install.features=true)
           </filter>
         </required>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
-    </unit>
-    <unit id='generated.target.category.188fad59-19a6-49a3-9863-5771fce074ab' version='1.0.0.47U-cLSXJb8s7379555G13C77'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/modeling/emft/mwe/updates/releases/2.16.0'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.188fad59-19a6-49a3-9863-5771fce074ab' version='1.0.0.47U-cLSXJb8s7379555G13C77'/>
-      </provides>
-      <requires size='1'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.mwe2.launcher.feature.group' range='[2.16.0.v20231117-0522,2.16.0.v20231117-0522]'/>
       </requires>
       <touchpoint id='null' version='0.0.0'/>
     </unit>
@@ -3740,6 +3830,60 @@
         <instructions size='1'>
           <instruction key='manifest'>
             Bundle-SymbolicName: org.eclipse.ui.ide.application;singleton:=true&#xA;Bundle-Version: 1.5.200.v20231030-2045
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.osate.aadl2.edit' version='5.0.0.v20230406-1511' generation='2'>
+      <update id='org.osate.aadl2.edit' range='[0.0.0,5.0.0.v20230406-1511)' severity='0'/>
+      <properties size='8'>
+        <property name='df_LT.pluginName' value='Aadl2 Edit Support'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='CMU/SEI'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.osate'/>
+        <property name='maven-artifactId' value='org.osate.aadl2.edit'/>
+        <property name='maven-version' value='5.0.0-SNAPSHOT'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+      </properties>
+      <provides size='7'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.osate.aadl2.edit' version='5.0.0.v20230406-1511'/>
+        <provided namespace='osgi.bundle' name='org.osate.aadl2.edit' version='5.0.0.v20230406-1511'/>
+        <provided namespace='java.package' name='org.osate.aadl2.instance.provider' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.aadl2.provider' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='org.osate.aadl2.edit' version='5.0.0.v20230406-1511'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='11'>
+        <required namespace='osgi.bundle' name='org.osate.aadl2' range='[5.0.0,6.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.edit' range='[2.16.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='[2.20.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore.edit' range='[2.13.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.uml2.uml' range='[5.5.0,6.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.uml2.uml.edit' range='[5.5.0,6.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.uml2.types' range='[2.5.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.uml2.common.edit' range='[2.5.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='[3.7.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase.lib' range='[2.20.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+          <description>
+            org.osate.aadl2.edit
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.osate.aadl2.edit' version='5.0.0.v20230406-1511'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.osate.aadl2.edit;singleton:=true&#xA;Bundle-Version: 5.0.0.v20230406-1511
           </instruction>
         </instructions>
       </touchpointData>
@@ -6192,19 +6336,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='generated.target.category.8fdc10e8-a88d-4450-bb57-01ff6b9fd7c4' version='1.0.0.07I7GcKCAvE7G2EcH1Te1eAt'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://osate-build.sei.cmu.edu/p2/py4j'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.8fdc10e8-a88d-4450-bb57-01ff6b9fd7c4' version='1.0.0.07I7GcKCAvE7G2EcH1Te1eAt'/>
-      </provides>
-      <requires size='1'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.py4j.feature.feature.group' range='[0.10.9.7-bnd-CoUoZw,0.10.9.7-bnd-CoUoZw]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
-    </unit>
     <unit id='org.eclipse.emf.transaction.doc.feature.jar' version='1.13.0.202208110935'>
       <properties size='11'>
         <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
@@ -7328,6 +7459,19 @@
           </instruction>
         </instructions>
       </touchpointData>
+    </unit>
+    <unit id='generated.target.category.49998b02-6de2-400f-9d0e-84858a3b7c6a' version='1.0.0.6797GcLYF787735K555A573C'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://updates.yakindu.com/statecharts/releases/3.5.9'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.49998b02-6de2-400f-9d0e-84858a3b7c6a' version='1.0.0.6797GcLYF787735K555A573C'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.yakindu.base.xtext.utils.jface' range='[3.5.9.201911141205,3.5.9.201911141205]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.gmf.examples.runtime.diagram.logic.model.edit' version='1.2.0.202311130907' generation='2'>
       <update id='org.eclipse.gmf.examples.runtime.diagram.logic.model.edit' range='[0.0.0,1.2.0.202311130907)' severity='0'/>
@@ -10352,6 +10496,115 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='org.osate.ge' version='3.1.2.v20240115-1502' generation='2'>
+      <update id='org.osate.ge' range='[0.0.0,3.1.2.v20240115-1502)' severity='0'/>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='OSATE Graphical Editor'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The University of Alabama in Huntsville'/>
+        <property name='maven-groupId' value='org.osate'/>
+        <property name='maven-artifactId' value='org.osate.ge'/>
+        <property name='maven-version' value='3.1.2-SNAPSHOT'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+      </properties>
+      <provides size='44'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.osate.ge' version='3.1.2.v20240115-1502'/>
+        <provided namespace='osgi.bundle' name='org.osate.ge' version='3.1.2.v20240115-1502'/>
+        <provided namespace='java.package' name='org.osate.ge' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.aadl2' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.aadl2.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.aadl2.internal.diagramtypes' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.aadl2.internal.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.aadl2.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.aadl2.ui.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.aadl2.ui.internal.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.aadl2.ui.internal.properties' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.businessobjecthandling' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.graphics' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.graphics.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.businessobjecthandlers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.diagram.runtime' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.diagram.runtime.layout' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.diagram.runtime.styling' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.diagram.runtime.types' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.diagram.runtime.updating' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.query' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.services' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.services.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui.dialogs' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui.editor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui.editor.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui.handlers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui.properties' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui.tools' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.ui.xtext' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.internal.util' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.operations' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.palette' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.query' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.referencehandling' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.services' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.services.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.ui' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='org.osate.ge' version='3.1.2.v20240115-1502'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='31'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='[3.115.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='[3.17.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.transaction' range='[1.9.0,2.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext.ui' range='[2.20.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.aadl2' range='[5.0.0,6.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.aadl2.modelsupport' range='[7.0.0,8.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.xtext.aadl2.properties.ui' range='[4.1.0,5.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.xtext.aadl2.ui' range='[7.0.0,8.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.views.properties.tabbed' range='[3.8.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.e4.core.di' range='[1.7.0,2.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.e4.core.services' range='[2.2.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.e4.core.contexts' range='[1.8.0,2.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.navigator' range='[3.9.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='[3.16.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface' range='[3.18.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='[3.13.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='[3.6.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.aadl2.instantiation' range='[3.0.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.annexsupport' range='[4.0.0,5.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.ge.diagram' range='[2.1.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ltk.ui.refactoring' range='[3.10.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.elk.core' range='[0.3.0,1.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.elk.graph' range='[0.3.0,1.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.elk.alg.layered' range='[0.3.0,1.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.elk.core.service' range='[0.3.0,1.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.ge.swt' range='[2.1.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='com.google.guava' range='[32.1.0,33.0.0)'/>
+        <required namespace='java.package' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.ui.part' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.ui.views.contentoutline' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+          <description>
+            org.osate.ge
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.osate.ge' version='3.1.2.v20240115-1502'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.osate.ge;singleton:=true&#xA;Bundle-Version: 3.1.2.v20240115-1502
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
     <unit id='org.eclipse.emf.mwe2.language' version='2.16.0.v20231117-0522' generation='2'>
       <update id='org.eclipse.emf.mwe2.language' range='[0.0.0,2.16.0.v20231117-0522)' severity='0'/>
       <properties size='6'>
@@ -10916,37 +11169,6 @@
       <copyright>
         Copyright (c) 2009, 2018 itemis AG (http://www.itemis.eu) and others.&#xA;&#xA;This program and the accompanying materials are made available under the&#xA;terms of the Eclipse Public License 2.0 which is available at&#xA;http://www.eclipse.org/legal/epl-2.0.&#xA;&#xA;SPDX-License-Identifier: EPL-2.0
       </copyright>
-    </unit>
-    <unit id='generated.target.category.48820ae1-f4fa-412c-9229-b3e97c4f2251' version='1.0.0.9BBEFCacLYUpnEAtZ-g3A3gFLWZ0k'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/releases/2023-12'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.48820ae1-f4fa-412c-9229-b3e97c4f2251' version='1.0.0.9BBEFCacLYUpnEAtZ-g3A3gFLWZ0k'/>
-      </provides>
-      <requires size='19'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.discovery.feature.feature.group' range='[1.3.200.v20231104-1339,1.3.200.v20231104-1339]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.uml2.feature.group' range='[5.5.3.v20221116-1811,5.5.3.v20221116-1811]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='[4.30.0.v20231201-0512,4.30.0.v20231201-0512]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.fx.feature.group' range='[5.0.5.202311221639,5.0.5.202311221639]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.transaction.sdk.feature.group' range='[1.13.0.202208110935,1.13.0.202208110935]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.common.feature.group' range='[5.0.3.202311221639,5.0.3.202311221639]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.zest.feature.group' range='[3.18.0.202311222042,3.18.0.202311222042]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sirius.common.acceleo.aql' range='[7.3.0.202311270829,7.3.0.202311270829]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.geometry.feature.group' range='[5.0.1.202311221639,5.0.1.202311221639]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gmf.runtime.sdk.feature.group' range='[1.16.2.202311130907,1.16.2.202311130907]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.sdk.feature.group' range='[2.36.0.v20231107-0612,2.36.0.v20231107-0612]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.executable.feature.group' range='[3.8.2300.v20231106-1826,3.8.2300.v20231106-1826]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.m2e.logback.feature.feature.group' range='[2.2.1.20231113-2319,2.2.1.20231113-2319]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.context.feature.feature.group' range='[4.1.0.v20231102-0301,4.1.0.v20231102-0301]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.egit.feature.group' range='[6.8.0.202311291450-r,6.8.0.202311291450-r]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.fx.runtime.min.feature.feature.group' range='[3.9.0.202210162353,3.9.0.202210162353]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.transaction.feature.group' range='[1.13.0.202208110935,1.13.0.202208110935]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.geometry.convert.fx.feature.group' range='[5.0.0.202311221639,5.0.0.202311221639]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sirius.runtime.ide.ui.feature.group' range='[7.3.0.202311270829,7.3.0.202311270829]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.ease.help' version='0.9.0.I202207260937' generation='2'>
       <update id='org.eclipse.ease.help' range='[0.0.0,0.9.0.I202207260937)' severity='0'/>
@@ -11612,229 +11834,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='bcprov' version='1.77.0' singleton='false' generation='2'>
-      <update id='bcprov' range='[0.0.0,1.77.0)' severity='0'/>
-      <properties size='6'>
-        <property name='org.eclipse.equinox.p2.name' value='bcprov'/>
-        <property name='maven-groupId' value='org.bouncycastle'/>
-        <property name='maven-artifactId' value='bcprov-jdk18on'/>
-        <property name='maven-version' value='1.77'/>
-        <property name='maven-repository' value='eclipse.maven.central.mirror'/>
-        <property name='maven-type' value='jar'/>
-      </properties>
-      <provides size='180'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='bcprov' version='1.77.0'/>
-        <provided namespace='osgi.bundle' name='bcprov' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.anssi' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.bc' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.cryptlib' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.cryptopro' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.edec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.gm' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.gnu' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.iana' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.isara' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.iso' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.kisa' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.microsoft' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.misc' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.mozilla' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.nist' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.nsri' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.ntt' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.ocsp' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.oiw' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.pkcs' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.rosstandart' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.sec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.teletrust' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.ua' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.x500' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.x500.style' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.x509' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.x509.qualified' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.x509.sigi' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.asn1.x9' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.agreement' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.agreement.jpake' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.agreement.kdf' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.agreement.srp' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.commitments' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.constraints' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.digests' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.ec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.encodings' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.engines' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.examples' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.fpe' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.generators' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.hpke' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.io' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.kems' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.macs' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.modes' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.modes.gcm' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.modes.kgcm' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.paddings' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.params' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.parsers' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.prng' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.prng.drbg' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.signers' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.crypto.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.i18n' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.i18n.filter' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.iana' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.internal.asn1.bsi' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.internal.asn1.cms' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.internal.asn1.eac' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.internal.asn1.isismtt' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.interfaces' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.io' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.dh' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.dsa' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.dstu' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.ec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.ecgost' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.ecgost12' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.edec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.elgamal' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.gost' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.ies' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.rsa' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.asymmetric.x509' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.config' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.digest' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.drbg' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.keystore' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.keystore.bc' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.keystore.bcfks' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.keystore.pkcs12' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.keystore.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.symmetric' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.symmetric.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.provider.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.spec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jcajce.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jce' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jce.exception' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jce.interfaces' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jce.netscape' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jce.provider' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.jce.spec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.ec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.ec.custom.djb' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.ec.custom.gm' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.ec.custom.sec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.ec.endo' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.ec.rfc7748' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.ec.rfc8032' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.ec.tools' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.field' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.math.raw' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.asn1' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.bike' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.cmce' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.crystals.dilithium' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.crystals.kyber' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.falcon' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.frodo' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.gemss' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.hqc' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.lms' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.newhope' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.ntru' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.ntruprime' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.picnic' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.rainbow' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.saber' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.sphincs' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.sphincsplus' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.crypto.xmss' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.interfaces' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.bike' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.cmce' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.dilithium' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.falcon' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.frodo' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.gmss' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.hqc' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.kyber' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.lms' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.mceliece' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.newhope' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.ntru' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.ntruprime' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.picnic' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.rainbow' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.saber' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.sphincs' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.sphincsplus' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.provider.xmss' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.jcajce.spec' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.legacy.crypto.gmss' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.legacy.crypto.gmss.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.legacy.crypto.mceliece' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.legacy.crypto.qtesla' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.legacy.crypto.rainbow' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.legacy.crypto.rainbow.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.legacy.math.linearalgebra' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.math.ntru' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.pqc.math.ntru.parameters' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.util' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.util.encoders' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.util.io' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.util.io.pem' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.util.test' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.x509' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.x509.extension' version='1.77.0'/>
-        <provided namespace='java.package' name='org.bouncycastle.x509.util' version='1.77.0'/>
-        <provided namespace='osgi.identity' name='bcprov' version='1.77.0'>
-          <properties size='1'>
-            <property name='type' value='osgi.bundle'/>
-          </properties>
-        </provided>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-      </provides>
-      <requires size='9'>
-        <required namespace='java.package' name='javax.crypto' range='0.0.0' optional='true' greedy='false'/>
-        <required namespace='java.package' name='javax.crypto.interfaces' range='0.0.0' optional='true' greedy='false'/>
-        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0' optional='true' greedy='false'/>
-        <required namespace='java.package' name='javax.naming' range='0.0.0' optional='true' greedy='false'/>
-        <required namespace='java.package' name='javax.naming.directory' range='0.0.0' optional='true' greedy='false'/>
-        <required namespace='java.package' name='javax.security.auth' range='0.0.0' optional='true' greedy='false'/>
-        <required namespace='java.package' name='javax.security.auth.callback' range='0.0.0' optional='true' greedy='false'/>
-        <required namespace='java.package' name='javax.security.auth.x500' range='0.0.0' optional='true' greedy='false'/>
-        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.5))'>
-          <description>
-            bcprov
-          </description>
-        </requiredProperties>
-      </requires>
-      <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='bcprov' version='1.77.0'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='manifest'>
-            Bundle-SymbolicName: bcprov&#xA;Bundle-Version: 1.77
-          </instruction>
-        </instructions>
-      </touchpointData>
-    </unit>
     <unit id='org.eclipse.elk.alg.radial' version='0.8.1' generation='2'>
       <update id='org.eclipse.elk.alg.radial' range='[0.0.0,0.8.1)' severity='0'/>
       <properties size='5'>
@@ -12440,22 +12439,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='generated.target.category.3e0793d9-9f63-4301-bdd2-8b9b119703b3' version='1.0.0.7FA7-cLWoZkDUUEUcMMUM7FLss'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.33.0'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.3e0793d9-9f63-4301-bdd2-8b9b119703b3' version='1.0.0.7FA7-cLWoZkDUUEUcMMUM7FLss'/>
-      </provides>
-      <requires size='4'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.testing' range='[2.33.0.v20231121-0955,2.33.0.v20231121-0955]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.redist.feature.group' range='[2.33.0.v20231121-0955,2.33.0.v20231121-0955]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.junit4' range='[2.33.0.v20231121-0955,2.33.0.v20231121-0955]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.xtext.generator' range='[2.33.0.v20231121-0955,2.33.0.v20231121-0955]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.emf.transaction.feature.jar' version='1.13.0.202208110935'>
       <properties size='11'>
@@ -16813,6 +16796,24 @@
         %copyright
       </copyright>
     </unit>
+    <unit id='generated.target.category.8ffc5468-5ec1-46db-88a9-8be0c72a1710' version='1.0.0.08g-cLUUo6_wkMkiPJfVTG10'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/ease/release/0.9.0'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.8ffc5468-5ec1-46db-88a9-8be0c72a1710' version='1.0.0.08g-cLUUo6_wkMkiPJfVTG10'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.lang.scriptarchive.feature.feature.group' range='[0.9.0.I202111181115,0.9.0.I202111181115]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.lang.python.py4j.feature.feature.group' range='[0.9.0.I202206141122,0.9.0.I202206141122]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.feature.feature.group' range='[0.9.0.I202206140954,0.9.0.I202206140954]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.lang.unittest.feature.feature.group' range='[0.9.0.I202204291053,0.9.0.I202204291053]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.ui.feature.feature.group' range='[0.9.0.I202207260937,0.9.0.I202207260937]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.modules.feature.feature.group' range='[0.9.0.I202207260950,0.9.0.I202207260950]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
     <unit id='org.eclipse.equinox.p2.discovery.feature.feature.group' version='1.3.200.v20231104-1339' singleton='false'>
       <update id='org.eclipse.equinox.p2.discovery.feature.feature.group' range='[0.0.0,1.3.200.v20231104-1339)' severity='0'/>
       <properties size='13'>
@@ -16853,6 +16854,37 @@
       <copyright>
         %copyright
       </copyright>
+    </unit>
+    <unit id='generated.target.category.ca686847-c377-450e-b42d-89546e7b2200' version='1.0.0.9BBEFCacLYUpnEAtZ-g3A3gFLWZ0k'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/releases/2023-12'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.ca686847-c377-450e-b42d-89546e7b2200' version='1.0.0.9BBEFCacLYUpnEAtZ-g3A3gFLWZ0k'/>
+      </provides>
+      <requires size='19'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.p2.discovery.feature.feature.group' range='[1.3.200.v20231104-1339,1.3.200.v20231104-1339]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.uml2.feature.group' range='[5.5.3.v20221116-1811,5.5.3.v20221116-1811]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.platform.feature.group' range='[4.30.0.v20231201-0512,4.30.0.v20231201-0512]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.fx.feature.group' range='[5.0.5.202311221639,5.0.5.202311221639]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.transaction.sdk.feature.group' range='[1.13.0.202208110935,1.13.0.202208110935]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.common.feature.group' range='[5.0.3.202311221639,5.0.3.202311221639]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.zest.feature.group' range='[3.18.0.202311222042,3.18.0.202311222042]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sirius.common.acceleo.aql' range='[7.3.0.202311270829,7.3.0.202311270829]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.geometry.feature.group' range='[5.0.1.202311221639,5.0.1.202311221639]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gmf.runtime.sdk.feature.group' range='[1.16.2.202311130907,1.16.2.202311130907]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.sdk.feature.group' range='[2.36.0.v20231107-0612,2.36.0.v20231107-0612]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.executable.feature.group' range='[3.8.2300.v20231106-1826,3.8.2300.v20231106-1826]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.m2e.logback.feature.feature.group' range='[2.2.1.20231113-2319,2.2.1.20231113-2319]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.mylyn.context.feature.feature.group' range='[4.1.0.v20231102-0301,4.1.0.v20231102-0301]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.egit.feature.group' range='[6.8.0.202311291450-r,6.8.0.202311291450-r]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.fx.runtime.min.feature.feature.group' range='[3.9.0.202210162353,3.9.0.202210162353]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.transaction.feature.group' range='[1.13.0.202208110935,1.13.0.202208110935]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.gef.geometry.convert.fx.feature.group' range='[5.0.0.202311221639,5.0.0.202311221639]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.sirius.runtime.ide.ui.feature.group' range='[7.3.0.202311270829,7.3.0.202311270829]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.e4.ui.di' version='1.5.200.v20231030-2045' singleton='false' generation='2'>
       <update id='org.eclipse.e4.ui.di' range='[0.0.0,1.5.200.v20231030-2045)' severity='0'/>
@@ -17909,21 +17941,6 @@
         %copyright
       </copyright>
     </unit>
-    <unit id='generated.target.category.1afc5708-aa80-4452-a49e-641834bb816d' version='1.0.0.8b-7Acl_wvE7MAMMAYAGMGMG'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://downloads.efxclipse.bestsolution.at/p2-repos/openjfx-17.0.2/'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.1afc5708-aa80-4452-a49e-641834bb816d' version='1.0.0.8b-7Acl_wvE7MAMMAYAGMGMG'/>
-      </provides>
-      <requires size='3'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='openjfx.standard.feature.feature.group' range='[17.0.2.202204012121,17.0.2.202204012121]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='openjfx.swing.feature.feature.group' range='[17.0.2.202204012121,17.0.2.202204012121]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='openjfx.swt.feature.feature.group' range='[17.0.2.202204012121,17.0.2.202204012121]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
-    </unit>
     <unit id='org.eclipse.gef.cloudio.ui.feature.group' version='5.0.2.202311221639' singleton='false'>
       <update id='org.eclipse.gef.cloudio.ui.feature.group' range='[0.0.0,5.0.2.202311221639)' severity='0'/>
       <properties size='11'>
@@ -18634,19 +18651,6 @@
       <copyright>
         %copyright
       </copyright>
-    </unit>
-    <unit id='generated.target.category.153a3c01-876e-4ab4-92c9-96bd569a4bf2' version='1.0.0.7X-7YcLWmV-8s737E373C1577A'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/justj/jres/17/updates/release/latest'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.153a3c01-876e-4ab4-92c9-96bd569a4bf2' version='1.0.0.7X-7YcLWmV-8s737E373C1577A'/>
-      </provides>
-      <requires size='1'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group' range='[17.0.18.v20260205-1224,17.0.18.v20260205-1224]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.gmf.feature.jar' version='1.16.2.202311130907'>
       <properties size='12'>
@@ -23134,6 +23138,53 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='org.osate.ge.diagram' version='2.1.1.v20230406-1511' generation='2'>
+      <update id='org.osate.ge.diagram' range='[0.0.0,2.1.1.v20230406-1511)' severity='0'/>
+      <properties size='9'>
+        <property name='df_LT.pluginName' value='OSATE Graphical Editor Diagram Model'/>
+        <property name='df_LT.providerName' value='The University of Alabama in Huntsville'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.osate'/>
+        <property name='maven-artifactId' value='org.osate.ge.diagram'/>
+        <property name='maven-version' value='2.1.1-SNAPSHOT'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.osate.ge.diagram' version='2.1.1.v20230406-1511'/>
+        <provided namespace='osgi.bundle' name='org.osate.ge.diagram' version='2.1.1.v20230406-1511'/>
+        <provided namespace='java.package' name='org.osate.ge.diagram' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='org.osate.ge.diagram' version='2.1.1.v20230406-1511'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='[3.17.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='[2.20.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.ecore.xmi' range='[2.16.0,3.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+          <description>
+            org.osate.ge.diagram
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.osate.ge.diagram' version='2.1.1.v20230406-1511'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.osate.ge.diagram;singleton:=true&#xA;Bundle-Version: 2.1.1.v20230406-1511
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
     <unit id='org.eclipse.gef.sdk.feature.group' version='5.5.0.202311221639' singleton='false'>
       <update id='org.eclipse.gef.sdk.feature.group' range='[0.0.0,5.5.0.202311221639)' severity='0'/>
       <properties size='11'>
@@ -25223,6 +25274,100 @@
         <instructions size='1'>
           <instruction key='manifest'>
             Bundle-SymbolicName: org.objectweb.asm.tree&#xA;Bundle-Version: 9.6
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.bouncycastle.bcpg' version='1.72.0.v20221013-1810' singleton='false' generation='2'>
+      <update id='org.bouncycastle.bcpg' range='[0.0.0,1.72.0.v20221013-1810)' severity='0'/>
+      <properties size='7'>
+        <property name='df_LT.bundleVendor' value='Eclipse Orbit'/>
+        <property name='df_LT.bundleName' value='Bouncy Castle OpenPGP API'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='maven-groupId' value='org.eclipse.orbit.bundles'/>
+        <property name='maven-artifactId' value='org.bouncycastle.bcpg'/>
+        <property name='maven-version' value='1.72.0-SNAPSHOT'/>
+      </properties>
+      <provides size='20'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.bouncycastle.bcpg' version='1.72.0.v20221013-1810'/>
+        <provided namespace='osgi.bundle' name='org.bouncycastle.bcpg' version='1.72.0.v20221013-1810'/>
+        <provided namespace='java.package' name='org.bouncycastle.apache.bzip2' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.bcpg' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.bcpg.attr' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.bcpg.sig' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.gpg' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.gpg.keybox' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.gpg.keybox.bc' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.gpg.keybox.jcajce' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.openpgp' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.openpgp.bc' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.openpgp.examples' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.openpgp.jcajce' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.openpgp.operator' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.openpgp.operator.bc' version='1.72.0'/>
+        <provided namespace='java.package' name='org.bouncycastle.openpgp.operator.jcajce' version='1.72.0'/>
+        <provided namespace='osgi.identity' name='org.bouncycastle.bcpg' version='1.72.0.v20221013-1810'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='35'>
+        <required namespace='java.package' name='org.bouncycastle.asn1' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.cryptlib' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.edec' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.gnu' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.nist' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.pkcs' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.sec' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.teletrust' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.x509' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.asn1.x9' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.agreement' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.digests' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.ec' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.encodings' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.engines' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.generators' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.io' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.modes' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.params' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.signers' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.crypto.util' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.jcajce.io' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.jcajce.spec' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.jcajce.util' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.jce.provider' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.math.ec' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.util' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.util.encoders' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='org.bouncycastle.util.io' range='[1.72.0,1.73.0)'/>
+        <required namespace='java.package' name='javax.crypto' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.crypto.interfaces' range='0.0.0' optional='true' greedy='false'/>
+        <required namespace='java.package' name='javax.crypto.spec' range='0.0.0' optional='true' greedy='false'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version&gt;=1.8))'>
+          <description>
+            org.bouncycastle.bcpg
+          </description>
+        </requiredProperties>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'>
+          <description>
+            org.bouncycastle.bcpg
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.bouncycastle.bcpg' version='1.72.0.v20221013-1810'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.bouncycastle.bcpg&#xA;Bundle-Version: 1.72.0.v20221013-1810
           </instruction>
         </instructions>
       </touchpointData>
@@ -27544,19 +27689,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='generated.target.category.6155637d-2809-49bd-a2cf-8e46499b7ed1' version='1.0.0.27k-cLf1U68s7379559315E5I'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/xsemantics/milestones/1.24'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.6155637d-2809-49bd-a2cf-8e46499b7ed1' version='1.0.0.27k-cLf1U68s7379559315E5I'/>
-      </provides>
-      <requires size='1'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xsemantics.runtime.feature.feature.group' range='[1.24.0.v20231130-1618,1.24.0.v20231130-1618]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
-    </unit>
     <unit id='org.eclipse.mylyn.commons.identity.feature.feature.jar' version='4.1.0.v20231009-0014'>
       <properties size='14'>
         <property name='org.eclipse.equinox.p2.name' value='%featureName'/>
@@ -28599,25 +28731,6 @@
       <copyright>
         Copyright (c) 2009, 2018 itemis AG (http://www.itemis.eu) and others.&#xA;&#xA;This program and the accompanying materials &#xA;are made available under the terms of the Eclipse Public License 2.0 &#xA;which is available at http://www.eclipse.org/legal/epl-2.0.&#xA;&#xA;SPDX-License-Identifier: EPL-2.0
       </copyright>
-    </unit>
-    <unit id='generated.target.category.5eb7063d-11c0-4bca-966d-1363eae588ff' version='1.0.0.8_37WcKvr--EB7sQt_R_XbCfZmu'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://osate-build.sei.cmu.edu/download/osate/stable/2.14.0-vfinal/updates/'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.5eb7063d-11c0-4bca-966d-1363eae588ff' version='1.0.0.8_37WcKvr--EB7sQt_R_XbCfZmu'/>
-      </provides>
-      <requires size='7'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.xtext.aadl2.properties.ui' range='[4.1.6.v20230907-1613,4.1.6.v20230907-1613]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.aadl2' range='[5.0.0.v20230406-1511,5.0.0.v20230406-1511]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.xtext.aadl2.properties' range='[3.1.6.v20240115-1447,3.1.6.v20240115-1447]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.xtext.aadl2' range='[7.0.2.v20240113-1730,7.0.2.v20240113-1730]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.xtext.aadl2.ui' range='[7.0.2.v20240115-1502,7.0.2.v20240115-1502]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.aadl2.modelsupport' range='[7.0.0.v20230406-1511,7.0.0.v20230406-1511]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.annexsupport' range='[4.0.1.v20230406-1511,4.0.1.v20230406-1511]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.gef.dot.doc' version='5.1.4.202311221639'>
       <update id='org.eclipse.gef.dot.doc' range='[0.0.0,5.1.4.202311221639)' severity='0'/>
@@ -31625,6 +31738,54 @@
         <instructions size='1'>
           <instruction key='manifest'>
             Bundle-SymbolicName: org.eclipse.gmf.runtime.common.ui.services.dnd.source&#xA;Bundle-Version: 1.8.0.202311130907
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.osate.ge.swt' version='2.1.1.v20230406-1511' singleton='false' generation='2'>
+      <update id='org.osate.ge.swt' range='[0.0.0,2.1.1.v20230406-1511)' severity='0'/>
+      <properties size='6'>
+        <property name='org.eclipse.equinox.p2.name' value='OSATE Graphical Editor SWT'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The University of Alabama in Huntsville'/>
+        <property name='maven-groupId' value='org.osate'/>
+        <property name='maven-artifactId' value='org.osate.ge.swt'/>
+        <property name='maven-version' value='2.1.1-SNAPSHOT'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+      </properties>
+      <provides size='10'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.osate.ge.swt' version='2.1.1.v20230406-1511'/>
+        <provided namespace='osgi.bundle' name='org.osate.ge.swt' version='2.1.1.v20230406-1511'/>
+        <provided namespace='java.package' name='org.osate.ge.swt' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.swt.check' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.swt.classifiers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.swt.name' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.swt.prototypes' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ge.swt.selectors' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='org.osate.ge.swt' version='2.1.1.v20230406-1511'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='osgi.bundle' name='org.eclipse.swt' range='[3.113.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface' range='[3.18.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='[3.17.0,4.0.0)'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+          <description>
+            org.osate.ge.swt
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.osate.ge.swt' version='2.1.1.v20230406-1511'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.osate.ge.swt&#xA;Bundle-Version: 2.1.1.v20230406-1511
           </instruction>
         </instructions>
       </touchpointData>
@@ -35017,6 +35178,19 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='generated.target.category.ad579de4-5078-4906-9b2a-d6f0cc9f050f' version='1.0.0.7X-7YcLWmV-8s737E373C1577A'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/justj/jres/17/updates/release/latest'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.ad579de4-5078-4906-9b2a-d6f0cc9f050f' version='1.0.0.7X-7YcLWmV-8s737E373C1577A'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group' range='[17.0.18.v20260205-1224,17.0.18.v20260205-1224]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
     <unit id='org.eclipse.gmf.runtime.common.ui.services.action.source' version='1.8.0.202311130907' singleton='false'>
       <update id='org.eclipse.gmf.runtime.common.ui.services.action.source' range='[0.0.0,1.8.0.202311130907)' severity='0'/>
       <properties size='10'>
@@ -36239,24 +36413,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='generated.target.category.928961bc-3f3f-4c81-bc37-b1c2c984fff3' version='1.0.0.08g-cLUUo6_wkMkiPJfVTG10'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/ease/release/0.9.0'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.928961bc-3f3f-4c81-bc37-b1c2c984fff3' version='1.0.0.08g-cLUUo6_wkMkiPJfVTG10'/>
-      </provides>
-      <requires size='6'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.lang.scriptarchive.feature.feature.group' range='[0.9.0.I202111181115,0.9.0.I202111181115]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.lang.python.py4j.feature.feature.group' range='[0.9.0.I202206141122,0.9.0.I202206141122]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.feature.feature.group' range='[0.9.0.I202206140954,0.9.0.I202206140954]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.lang.unittest.feature.feature.group' range='[0.9.0.I202204291053,0.9.0.I202204291053]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.ui.feature.feature.group' range='[0.9.0.I202207260937,0.9.0.I202207260937]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ease.modules.feature.feature.group' range='[0.9.0.I202207260950,0.9.0.I202207260950]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.gef.dot.ui.feature.group' version='5.1.3.202311221639' singleton='false'>
       <update id='org.eclipse.gef.dot.ui.feature.group' range='[0.0.0,5.1.3.202311221639)' severity='0'/>
@@ -41459,6 +41615,22 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='generated.target.category.e70fb33d-4e2a-4e9b-bc13-a536c6660071' version='1.0.0.7FA7-cLWoZkDUUEUcMMUM7FLss'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.33.0'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.e70fb33d-4e2a-4e9b-bc13-a536c6660071' version='1.0.0.7FA7-cLWoZkDUUEUcMMUM7FLss'/>
+      </provides>
+      <requires size='4'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.testing' range='[2.33.0.v20231121-0955,2.33.0.v20231121-0955]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.redist.feature.group' range='[2.33.0.v20231121-0955,2.33.0.v20231121-0955]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.junit4' range='[2.33.0.v20231121-0955,2.33.0.v20231121-0955]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xtext.xtext.generator' range='[2.33.0.v20231121-0955,2.33.0.v20231121-0955]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
     <unit id='org.eclipse.emf.common.source.feature.group' version='2.30.0.v20230916-0637' singleton='false'>
       <update id='org.eclipse.emf.common.source.feature.group' range='[0.0.0,2.30.0.v20230916-0637)' severity='0'/>
       <properties size='13'>
@@ -44200,19 +44372,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='generated.target.category.d9bb2781-69fd-4b23-9e79-70b9043f7f97' version='1.0.0.6797GcLYF787735K555A573C'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://updates.yakindu.com/statecharts/releases/3.5.9'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.d9bb2781-69fd-4b23-9e79-70b9043f7f97' version='1.0.0.6797GcLYF787735K555A573C'/>
-      </provides>
-      <requires size='1'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.yakindu.base.xtext.utils.jface' range='[3.5.9.201911141205,3.5.9.201911141205]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.elk.feature.feature.jar' version='0.8.1'>
       <properties size='9'>
@@ -47037,6 +47196,20 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='generated.target.category.e85af321-9fc1-49c9-b61c-d2a3aa1f2dca' version='1.0.0.07U3cLTGs6'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/elk/updates/releases/0.8.1'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.e85af321-9fc1-49c9-b61c-d2a3aa1f2dca' version='1.0.0.07U3cLTGs6'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.elk.feature.feature.group' range='[0.8.1,0.8.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.elk.algorithms.feature.feature.group' range='[0.8.1,0.8.1]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
     <unit id='org.eclipse.osgi.services' version='3.11.200.v20231106-0901' singleton='false' generation='2'>
       <update id='org.eclipse.osgi.services' range='[0.0.0,3.11.200.v20231106-0901)' severity='0'/>
       <properties size='13'>
@@ -47543,20 +47716,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='generated.target.category.84b7ecf9-8802-4355-a6cb-62e3c70466b3' version='1.0.0.07U3cLTGs6'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/elk/updates/releases/0.8.1'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.84b7ecf9-8802-4355-a6cb-62e3c70466b3' version='1.0.0.07U3cLTGs6'/>
-      </provides>
-      <requires size='2'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.elk.feature.feature.group' range='[0.8.1,0.8.1]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.elk.algorithms.feature.feature.group' range='[0.8.1,0.8.1]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.equinox.app' version='1.6.400.v20231103-0807' generation='2'>
       <update id='org.eclipse.equinox.app' range='[0.0.0,1.6.400.v20231103-0807)' severity='0'/>
@@ -49859,6 +50018,55 @@
         Copyright (c) 2017 Kiel University and others.&#xA;&#xA;&#xA;This program and the accompanying materials are made available under the&#xA;terms of the Eclipse Public License 2.0 which is available at&#xA;http://www.eclipse.org/legal/epl-2.0.&#xA;&#xA;SPDX-License-Identifier: EPL-2.0
       </copyright>
     </unit>
+    <unit id='org.junit.platform.suite.commons' version='1.9.1.v20221103-2317' singleton='false' generation='2'>
+      <update id='org.junit.platform.suite.commons' range='[0.0.0,1.9.1.v20221103-2317)' severity='0'/>
+      <properties size='7'>
+        <property name='df_LT.bundleVendor' value='Eclipse Orbit'/>
+        <property name='df_LT.bundleName' value='JUnit Platform Suite Commons'/>
+        <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+        <property name='maven-groupId' value='org.eclipse.orbit.bundles'/>
+        <property name='maven-artifactId' value='org.junit.platform.suite.commons'/>
+        <property name='maven-version' value='1.9.1'/>
+      </properties>
+      <provides size='6'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.junit.platform.suite.commons' version='1.9.1.v20221103-2317'/>
+        <provided namespace='osgi.bundle' name='org.junit.platform.suite.commons' version='1.9.1.v20221103-2317'/>
+        <provided namespace='java.package' name='org.junit.platform.suite.commons' version='1.9.1'/>
+        <provided namespace='osgi.identity' name='org.junit.platform.suite.commons' version='1.9.1.v20221103-2317'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='java.package' name='org.apiguardian.api' range='[1.1.2,2.0.0)' optional='true' greedy='false'/>
+        <required namespace='java.package' name='org.junit.platform.engine' range='[1.9.1,2.0.0)'/>
+        <required namespace='java.package' name='org.junit.platform.engine.discovery' range='[1.9.1,2.0.0)'/>
+        <required namespace='java.package' name='org.junit.platform.launcher' range='[1.9.1,2.0.0)'/>
+        <required namespace='java.package' name='org.junit.platform.launcher.core' range='[1.9.1,2.0.0)'/>
+        <required namespace='java.package' name='org.junit.platform.suite.api' range='[1.9.1,2.0.0)'/>
+        <required namespace='java.package' name='org.junit.platform.commons.util' range='[1.9.0,2.0.0)' optional='true' greedy='false'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'>
+          <description>
+            org.junit.platform.suite.commons
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.junit.platform.suite.commons' version='1.9.1.v20221103-2317'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.junit.platform.suite.commons&#xA;Bundle-Version: 1.9.1.v20221103-2317
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
     <unit id='org.eclipse.ease.lang.unittest' version='0.9.0.I202204291053' generation='2'>
       <update id='org.eclipse.ease.lang.unittest' range='[0.0.0,0.9.0.I202204291053)' severity='0'/>
       <properties size='6'>
@@ -50572,6 +50780,19 @@
       <copyright>
         %copyright
       </copyright>
+    </unit>
+    <unit id='generated.target.category.a924d6fe-a397-453c-834e-2e204b71a4af' version='1.0.0.47U-cLSXJb8s7379555G13C77'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/modeling/emft/mwe/updates/releases/2.16.0'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.a924d6fe-a397-453c-834e-2e204b71a4af' version='1.0.0.47U-cLSXJb8s7379555G13C77'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.mwe2.launcher.feature.group' range='[2.16.0.v20231117-0522,2.16.0.v20231117-0522]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.equinox.p2.ui' version='2.8.200.v20231105-1139' generation='2'>
       <update id='org.eclipse.equinox.p2.ui' range='[0.0.0,2.8.200.v20231105-1139)' severity='0'/>
@@ -51702,20 +51923,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='generated.target.category.fbe9989f-c17b-451e-8436-8fbce12a4947' version='1.0.0.7D7W1cKqqc-_kE7EC9G9M3AU9K'>
-      <properties size='2'>
-        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/tools/orbit/downloads/2023-03'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.fbe9989f-c17b-451e-8436-8fbce12a4947' version='1.0.0.7D7W1cKqqc-_kE7EC9G9M3AU9K'/>
-      </provides>
-      <requires size='2'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.io' range='[2.8.0.v20210415-0900,2.8.0.v20210415-0900]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.junit.jupiter.api' range='[5.9.1.v20221103-2317,5.9.1.v20221103-2317]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.gmf.runtime.sdk.feature.group' version='1.16.2.202311130907' singleton='false'>
       <update id='org.eclipse.gmf.runtime.sdk.feature.group' range='[0.0.0,1.16.2.202311130907)' severity='0'/>
@@ -52865,9 +53072,9 @@
         </provided>
         <provided namespace='org.eclipse.emf.ecore.generated_package' name='org.eclipse.emf.ecore.change_2.15.0.v20230211-1150-1' version='0.0.0'>
           <properties size='3'>
-            <property name='class' value='org.eclipse.emf.ecore.change.ChangePackage'/>
             <property name='genModel' value='model/Change.genmodel'/>
             <property name='uri' value='http://www.eclipse.org/emf/2003/Change'/>
+            <property name='class' value='org.eclipse.emf.ecore.change.ChangePackage'/>
           </properties>
         </provided>
         <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
@@ -53772,6 +53979,19 @@
           </instruction>
         </instructions>
       </touchpointData>
+    </unit>
+    <unit id='generated.target.category.6d956592-9d82-4afb-9b1f-988fe496658b' version='1.0.0.27k-cLf1U68s7379559315E5I'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/xsemantics/milestones/1.24'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.6d956592-9d82-4afb-9b1f-988fe496658b' version='1.0.0.27k-cLf1U68s7379559315E5I'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.xsemantics.runtime.feature.feature.group' range='[1.24.0.v20231130-1618,1.24.0.v20231130-1618]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.mylyn.monitor.core' version='4.1.0.v20231009-0014' generation='2'>
       <update id='org.eclipse.mylyn.monitor.core' range='[0.0.0,4.1.0.v20231009-0014)' severity='0'/>
@@ -59034,6 +59254,20 @@
         </instructions>
       </touchpointData>
     </unit>
+    <unit id='generated.target.category.e09a6d55-616c-48ee-90d7-e87a800204ab' version='1.0.0.7D7W1cKqqc-_kE7EC9G9M3AU9K'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://download.eclipse.org/tools/orbit/downloads/2023-03'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.e09a6d55-616c-48ee-90d7-e87a800204ab' version='1.0.0.7D7W1cKqqc-_kE7EC9G9M3AU9K'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.apache.commons.io' range='[2.8.0.v20210415-0900,2.8.0.v20210415-0900]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.junit.jupiter.api' range='[5.9.1.v20221103-2317,5.9.1.v20221103-2317]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+    </unit>
     <unit id='javax.xml' version='1.4.1.v20220503-2331' singleton='false' generation='2'>
       <update id='javax.xml' range='[0.0.0,1.4.1.v20220503-2331)' severity='0'/>
       <properties size='7'>
@@ -59721,6 +59955,21 @@
           </instruction>
         </instructions>
       </touchpointData>
+    </unit>
+    <unit id='generated.target.category.cd170305-a5b0-4763-a4c0-c75dc4fa03b3' version='1.0.0.8b-7Acl_wvE7MAMMAYAGMGMG'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://downloads.efxclipse.bestsolution.at/p2-repos/openjfx-17.0.2/'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.cd170305-a5b0-4763-a4c0-c75dc4fa03b3' version='1.0.0.8b-7Acl_wvE7MAMMAYAGMGMG'/>
+      </provides>
+      <requires size='3'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openjfx.standard.feature.feature.group' range='[17.0.2.202204012121,17.0.2.202204012121]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openjfx.swing.feature.feature.group' range='[17.0.2.202204012121,17.0.2.202204012121]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='openjfx.swt.feature.feature.group' range='[17.0.2.202204012121,17.0.2.202204012121]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.gef.geometry.sdk.feature.jar' version='5.0.3.202311221639'>
       <properties size='10'>
@@ -60977,6 +61226,108 @@
           </instruction>
         </instructions>
       </touchpointData>
+    </unit>
+    <unit id='org.osate.ui' version='6.3.5.v20240113-1922' generation='2'>
+      <update id='org.osate.ui' range='[0.0.0,6.3.5.v20240113-1922)' severity='0'/>
+      <properties size='8'>
+        <property name='df_LT.pluginName' value='AADL UI Plugin'/>
+        <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+        <property name='org.eclipse.equinox.p2.provider' value='CMU/SEI'/>
+        <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+        <property name='maven-groupId' value='org.osate'/>
+        <property name='maven-artifactId' value='org.osate.ui'/>
+        <property name='maven-version' value='6.3.5-SNAPSHOT'/>
+        <property name='maven-type' value='eclipse-plugin'/>
+      </properties>
+      <provides size='18'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.osate.ui' version='6.3.5.v20240113-1922'/>
+        <provided namespace='osgi.bundle' name='org.osate.ui' version='6.3.5.v20240113-1922'/>
+        <provided namespace='java.package' name='org.osate.search' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.dialogs' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.handlers' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.internal.actions' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.internal.instantiate' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.internal.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.marker' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.navigator' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.perspective' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.preferences' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.utils' version='0.0.0'/>
+        <provided namespace='java.package' name='org.osate.ui.wizards' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='org.osate.ui' version='6.3.5.v20240113-1922'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+      </provides>
+      <requires size='28'>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='[3.7.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='[3.7.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='[3.16.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.ge' range='[3.1.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.edit.ui' range='[2.7.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.aadl2.modelsupport' range='[7.0.0,8.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.aadl2.edit' range='[5.0.0,6.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.xtext' range='[2.20.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.emf.transaction' range='[1.4.0,2.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.xtext.aadl2.properties' range='[3.1.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.xtext.aadl2.properties.ui' range='[4.1.0,5.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.aadl2.instantiation' range='[3.0.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.xtext.aadl2' range='[7.0.0,8.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.navigator' range='[3.9.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.pluginsupport' range='[7.2.0,8.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.xtext.aadl2.ui' range='[7.0.0,8.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.expressions' range='[3.6.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.apache.commons.lang' range='[2.6.0,3.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.ui.navigator.resources' range='[3.7.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.jface' range='[3.18.0,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.search' range='[3.11.100,4.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.zest.core' range='[1.5.0,2.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.zest.layouts' range='[1.1.300,2.0.0)'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='[1.7.0,2.0.0)'/>
+        <required namespace='osgi.bundle' name='org.osate.results' range='[3.0.0,4.0.0)'/>
+        <required namespace='java.package' name='org.apache.log4j' range='[1.2.19,2.0.0)'/>
+        <required namespace='java.package' name='org.osate.annexsupport' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'>
+          <description>
+            org.osate.ui
+          </description>
+        </requiredProperties>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.osate.ui' version='6.3.5.v20240113-1922'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.osate.ui;singleton:=true&#xA;Bundle-Version: 6.3.5.v20240113-1922
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='generated.target.category.39f876e0-44c9-406c-9451-ff4398928806' version='1.0.0.8L797gcKvr--ED-z0V-LVFdlElvv0'>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='https://osate-build.sei.cmu.edu/download/osate/stable/2.14.0-vfinal/updates/'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='generated.target.category.39f876e0-44c9-406c-9451-ff4398928806' version='1.0.0.8L797gcKvr--ED-z0V-LVFdlElvv0'/>
+      </provides>
+      <requires size='8'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.xtext.aadl2.properties.ui' range='[4.1.6.v20230907-1613,4.1.6.v20230907-1613]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.ui' range='[6.3.5.v20240113-1922,6.3.5.v20240113-1922]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.aadl2' range='[5.0.0.v20230406-1511,5.0.0.v20230406-1511]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.xtext.aadl2.properties' range='[3.1.6.v20240115-1447,3.1.6.v20240115-1447]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.xtext.aadl2' range='[7.0.2.v20240113-1730,7.0.2.v20240113-1730]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.xtext.aadl2.ui' range='[7.0.2.v20240115-1502,7.0.2.v20240115-1502]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.aadl2.modelsupport' range='[7.0.0.v20230406-1511,7.0.0.v20230406-1511]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.osate.annexsupport' range='[4.0.1.v20230406-1511,4.0.1.v20230406-1511]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='org.eclipse.equinox.http.servlet' version='1.8.0.v20231018-1316' singleton='false' generation='2'>
       <update id='org.eclipse.equinox.http.servlet' range='[0.0.0,1.8.0.v20231018-1316)' severity='0'/>
